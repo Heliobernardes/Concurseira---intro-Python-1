@@ -1,0 +1,8 @@
+Lado=float(input("Digite o valor correspondente ao lado de um quadrado: "))
+
+perímetro = Lado * 4
+
+área = Lado * Lado
+
+print("área: ", área)
+print("perímetro: ", perímetro)
