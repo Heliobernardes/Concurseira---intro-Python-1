@@ -1,0 +1,11 @@
+Primeira = float(input("Digite a primeira nota: "))
+
+Segunda = float(input("Digite a segunda nota: "))
+
+Terceira = float(input("Digite a terceira nota: "))
+
+Quarta = float(input("Digite a quarta nota: "))
+
+média = (Primeira + Segunda + Terceira + Quarta) / 4
+
+print("A média aritmética é", média)
