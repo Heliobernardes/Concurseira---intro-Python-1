@@ -1,0 +1,6 @@
+num = int(input("me diga um número qualquer: "))
+
+if (num % 5 == 0 and num !=5)and(num % 3 == 0 and num !=3):
+    print('FizzBuzz')
+else:
+    print(num)
