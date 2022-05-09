@@ -1,9 +1,9 @@
-n =int(input("digite um númeoro inteiro: "))
+x = int(input("Numero: "))
 
-if n>0:
-    soma=0
-    while n!=0:
-        resto = n%10
-        n= (n-resto)//10
-        soma=soma+resto
-    print(soma)
+soma = 0
+
+while (x != 0):
+    resto = x % 10
+    x = (x - resto)//10
+    soma = soma + resto
+print(soma)
