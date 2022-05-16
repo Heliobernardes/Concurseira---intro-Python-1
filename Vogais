@@ -1,0 +1,6 @@
+def vogal(x):
+    x = "a" and "A" and "e" and "E" and "i" and "I" and "o" and "O" and "u" and "U"
+    if x == vogal:
+        return True
+    else:
+        return False
